@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 7.5px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 10px;
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: red; 
+          border-radius: 19px;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #b30000; 
+        }
+        </style>
+    </head>   
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #myBtn:hover {
+            background-color: #555;
+        }
+    </style>
+    </head>
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><b>Top</b></button>
+        <script>
+                        //Get the button
+                        var mybutton = document.getElementById("myBtn");
+
+                        // When the user scrolls down 20px from the top of the document, show the button
+                        window.onscroll = function() {scrollFunction()};
+
+                        function scrollFunction() {
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+    </body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body
+        {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav
+        {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a
+        {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: cursive;
+        }
+
+        .topnav a:hover
+        {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active
+        {
+            background-color: #04AA6D;
+            color: white;
+        }
+        </style>
+        <title>
+            Asteroids and Comets | Solar System
+        </title>
+    </head>
+    <body background="pictures/bgac.jpg">
+        
+        <div class="topnav">
+            <a class="link" href="Home.html">Home</a>
+            <a class="link" href="sun.html">Sun</a>
+            <a class="link" href="planets.html">Planets</a>
+            <a class="active" href="#">Asteroids and Comets</a>
+            <a class="link" href="http://solar.system.com/">Logout</a>
+        </div>
+        <h1>
+            <font style="color: white; font-size: 250%;">
+                <center>
+                    <marquee direction="left">
+                        The Inner and Outer solar system border and the attention grabbers, Our Asteroids and Comets
+                    </marquee>
+                </center>
+            </font>
+        </h1>
+        <hr color="red">
+        <p>
+            <font style="color: white; font-size: 150%;">
+                After the supernovae many small fragments did not form planets or dwarf planets. But these formed Asteroids. These Asteroids settled between the Inner solar system and the Outer solar system. It is the space between Mars
+                and Jupiter
+                . Asteroids vary from size to size, for example the asteroids can be 1 meter or even 10 kilometers.
+                <br>
+                These are the 10 largest Asteroids in the Solar System
+                <ol>
+                    <li>
+                        Ceres
+                    </li>
+                    <li>
+                        Vesta
+                    </li>
+                    <li>
+                        Pallas
+                    </li>
+                    <li>
+                        Hygiea
+                    </li>
+                    <li>
+                        Interamnia
+                    </li>
+                    <li>
+                        Europa
+                    </li>
+                    <li>
+                        Davida
+                    </li>
+                    <li>
+                        Silvia
+                    </li>
+                    <li>
+                        Cybele
+                    </li>
+                    <li>
+                        Eunomia
+                    </li>
+                </ol>
+                <br>
+                But some of them did not become Asteroids insted became Comets. Comets are heavenly bodies who revolve around the Sun. Both the asteroids and the comets have similar chemical composition. Both of them are made up of valuable metals. At times these comets enter the earth's atmosphere and starts to burn. This sight is known meteor showers and the comets which are burning is known as shooting star or meteors. There is a hypothesis that the first water(H2O) and oxygen(O) were brought by these comets who did not completely burn up and fell on the earth's surface. Those meteors who do not burn up completely in the atmosphere and fall onto the ground are called meteorites. These meteorites are collected and tested to know the estimated time from the Big Bang.
+                <br>
+                These are the 10 largest Comets in the Solar System
+                <ol>
+                    <li>
+                        Halley's Comet
+                    </li>
+                    <li>
+                        Shoemaker Levy-9
+                    </li>
+                    <li>
+                        Hyakutake
+                    </li>
+                    <li>
+                        Hale Bopp
+                    </li>
+                    <li>
+                        Comet Borrelly
+                    </li>
+                    <li>
+                        Comet Encke
+                    </li>
+                    <li>
+                        Tempel-Tuttel
+                    </li>
+                    <li>
+                        Comet Wild 2
+                    </li>
+                    <li>
+                        Comet Tempel 1
+                    </li>
+                    <li>
+                        Churyumov-Gerasimenko   
+                    </li>
+                </ol>
+            </font>
+        </p>
+    </body>
+    <table>
+        <tr>
+            <td>
+                <center>
+                    <img src="pictures/hc.jpg" alt="Halley's Comet" height="50%" width="50%">
+                </center>
+            </td>
+            <td>
+                <center>
+                    <img src="pictures/vesta.jfif" alt="Vesta" height="50%" width="50%">
+                </center>
+            </td>
+            <td>
+                <center>
+                    <img src="pictures/hb.jfif" alt="Hale - Bobb" height="auto" width="auto">
+                </center>
+            </td>
+            <td>
+                <center>
+                    <img src="pictures/hygeia.jfif" alt="Hygiea" height="30%" width="30%">
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <font style="color: white;">
+                    <center>
+                        Halley's Comet
+                    </center>
+                </font>
+            </td>
+            <td>
+                <font style="color: white;">
+                    <center>
+                        Vesta
+                    </center>
+                </font>
+            </td>
+            <td>
+                <font style="color: white;">
+                    <center>
+                        Hale - Bobb
+                    </center>
+                </font>
+            </td>
+            <td>
+                <font style="color: white;">
+                    <center>
+                        Hygiea
+                    </center>
+                </font>
+            </td>
+        </tr>
+    </table>
+    <hr style="color: red;">
+    <style>
+        .hyperlink:link
+        {
+            color: chartreuse;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        .hyperlink:visited
+        {
+            color: chartreuse;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        .hyperlink:hover
+        {
+            color: chartreuse;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        .hyperlink:active
+        {
+            color: chartreuse;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+</html>

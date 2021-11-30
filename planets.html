@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 7.5px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 10px;
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: red; 
+          border-radius: 19px;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #b30000; 
+        }
+        </style>
+        </head>   
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><b>Top</b></button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body
+        {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav
+        {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a
+        {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: cursive;
+        }
+
+        .topnav a:hover
+        {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active
+        {
+            background-color: #04AA6D;
+            color: white;
+        }
+        </style>
+        <title>
+            Planets | Solar System
+        </title>
+    </head>
+    <body background="pictures/bgplanets.jpg">
+        
+        <div class="topnav">
+            <a class="link" href="Home.html">Home</a>
+            <a class="link" href="sun.html">Sun</a>
+            <a class="active" href="#">Planets</a>
+            <a class="link" href="AsteroidsAndComets.html">Asteroids and Comets</a>
+            <a class="link" href="http://solar.system.com/">Logout</a>
+        </div>
+        <h1>
+            <font style="color: white; font-size: 250%;">
+                <center>
+                    <marquee direction="right">
+                        About our Companions, The Planets
+                    </marquee>
+                </center>
+            </font>
+        </h1>
+        <hr color="red">
+        <ul>
+            <P>
+                <font style="color: white;">
+                    Index
+                </font>
+            </P>
+            <li>
+                <a href="#1" class="ulh">
+                    Mercury
+                </a>
+            </li>
+            <li>
+                <a href="#2" class="ulh">
+                    Venus
+                </a>
+            </li>
+            <li>
+                <a href="#3" class="ulh">
+                    Earth
+                </a>
+            </li>
+            <li>
+                <a href="#4" class="ulh">
+                    Mars
+                </a>
+            </li>
+            <li>
+                <a href="#5" class="ulh">
+                    Jupiter
+                </a>
+            </li>
+            <li>
+                <a href="#6" class="ulh">
+                    Saturn
+                </a>
+            </li>
+            <li>
+                <a href="#7" class="ulh">
+                    Uranus
+                </a>
+            </li>
+            <li>
+                <a href="#8" class="ulh">
+                    Neptune
+                </a>
+            </li>
+        </ul>
+        <style>
+            .ulh:link
+        {
+            color: aqua;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        .ulh:visited
+        {
+            color: aqua;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        .ulh:hover
+        {
+            color: aqua;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        .ulh:active
+        {
+            color: aqua;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        </style>
+
+        <hr color="red">
+        <p>
+            <font style="color: white; font-size: 150%;">
+                Supernovae is an event when a star at the end of its life colapses onto itself and creates a big explodes. The planets are heavenly bodies which were formed from the supernovae. Some of the big chunks merged to form bigger planets while some formed dwarf planets and some formed the Asteroid and Kuiper Belts. Here is a description on each of the planets.
+            </font>
+        </p>
+    </body>
+    <table border="2" bordercolor="white" align="center">
+        <tr>
+            <td>
+                <center>
+                    Planet Image
+                </center>
+            </td>
+            <td>
+                <center>
+                    Name of the Planet
+                </center>
+            </td>
+            <td>
+                <center>
+                    Number of Moons
+                </center>
+            </td>
+            <td>
+                Time taken for the sunlight to reach
+            </td>
+            <td>
+                Rotation Time
+            </td>
+            <td>
+                Revolution Time
+            </td>
+            <td>
+                Diameter
+            </td>
+            <td>
+                Mass
+            </td>
+            <td>
+                Distance from the sun
+            </td>
+            <td>
+                Number of Earths which can fit
+            </td>
+            <td>
+                Surface Temprature
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a name="1">
+                    <img src="pictures/mercury.gif" alt="Mercury">
+                </a>
+            </td>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Mercury_(planet)" class="hyperlink">
+                    <b>
+                        Mercury
+                    </b>
+                </a>
+            </td>
+            <td>
+                0
+            </td>
+            <td>
+                3.2 Minutes
+            </td>
+            <td>
+                55 days 15 hours 30 Minutes
+            </td>
+            <td>
+                88 Earth Days
+            </td>
+            <td>
+                4879.4 km
+            </td>
+            <td>
+                3.285 x 10^23 kg
+            </td>
+            <td>
+                66.162 million km
+            </td>
+            <td>
+                1/18 Earths
+            </td>
+            <td>
+                800 degree faraniet
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a name="2">
+                    <img src="pictures/venus.gif" alt="Venus">
+                </a>
+            </td>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Venus" class="hyperlink">
+                    <b>
+                        Venus
+                    </b>
+                </a>
+            </td>
+            <td>
+                0
+            </td>
+            <td>
+                6 Minutes
+            </td>
+            <td>
+                116d 18h
+            </td>
+            <td>
+                225 Days
+            </td>
+            <td>
+                12,104 km
+            </td>
+            <td>
+                4.867 x 10^24 kg
+            </td>
+            <td>
+                108.53 million km
+            </td>
+            <td>
+                9/10 Earths
+            </td>
+            <td>
+                900 degree faraniet
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a name="3">
+                    <img src="pictures/earth.gif" alt="Earth">
+                </a>
+            </td>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Earth" class="hyperlink">
+                    <b>
+                        Earth
+                    </b>
+                </a>
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                8 Minutes
+            </td>
+            <td>
+                24h
+            </td>
+            <td>
+                365.25 Days
+            </td>
+            <td>
+                12,742 km
+            </td>
+            <td>
+                5.972 x 10^24 kg
+            </td>
+            <td>
+                151.26 million km
+            </td>
+            <td>
+                1
+            </td>
+            <td>
+                58.62 degree faraniet
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a name="4">
+                    <img src="pictures/mars.gif" alt="Mars">
+                </a>
+            </td>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Mars" class="hyperlink">
+                    <b>
+                        Mars
+                    </b>
+                </a>
+            </td>
+            <td>
+                2
+            </td>
+            <td>
+                12.5 Minutes
+            </td>
+            <td>
+                1.03 Days
+            </td>
+            <td>
+                1.88 years
+            </td>
+            <td>
+                6,779 km
+            </td>
+            <td>
+                6.39 x 10^23 kg
+            </td>
+            <td>
+                249.38 million km
+            </td>
+            <td>
+                1/2 Earths
+            </td>
+            <td>
+                -80 degree faraniet
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a name="5">
+                    <img src="pictures/jupiter.gif" alt="Jupiter">
+                </a>
+            </td>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Jupiter" class="hyperlink">
+                    <b>
+                        Jupiter
+                    </b>
+                </a>
+            </td>
+            <td>
+                79
+            </td>
+            <td>
+                43 Minutes
+            </td>
+            <td>
+                10 hours
+            </td>
+            <td>
+                12 years
+            </td>
+            <td>
+                139,820 km
+            </td>
+            <td>
+                1.898 x 10^27 kg
+            </td>
+            <td>
+                751.95 million km
+            </td>
+            <td>
+                1300
+            </td>
+            <td>
+                234 degree faraniet
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a name="6">
+                    <img src="pictures/saturn.gif" alt="Saturn">
+                </a>
+            </td>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Saturn" class="hyperlink">
+                    <b>
+                        Saturn
+                    </b>
+                </a>
+            </td>
+            <td>
+                82
+            </td>
+            <td>
+                79.3 Minutes
+            </td>
+            <td>
+                0.45 Days
+            </td>
+            <td>
+                29.46 years
+            </td>
+            <td>
+                116,460 km
+            </td>
+            <td>
+                5.683 x 10^26 kg
+            </td>
+            <td>
+                1.434 Billion Km
+            </td>
+            <td>
+                764
+            </td>
+            <td>
+                -288 degree faraniet
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a name="7">
+                    <img src="pictures/uranus.gif" alt="Uranus">
+                </a>
+            </td>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Uranus" class="hyperlink">
+                    <b>
+                        Uranus
+                    </b>
+                </a>
+            </td>
+            <td>
+                27
+            </td>
+            <td>
+                2 hours and 40 minutes
+            </td>
+            <td>
+                0.72 Days
+            </td>
+            <td>
+                84.01 years
+            </td>
+            <td>
+                50,724 km
+            </td>
+            <td>
+                8.681 x 10^25 kg
+            </td>
+            <td>
+                2.9526 billion km
+            </td>
+            <td>
+                63
+            </td>
+            <td>
+                -353 degree faraniet
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a name="8">
+                    <img src="pictures/neptune.gif" alt="Neptune">
+                </a>
+            </td>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Neptune" class="hyperlink">
+                    <b>
+                        Neptune
+                    </b>
+                </a>
+            </td>
+            <td>
+                14
+            </td>
+            <td>
+                4 hours
+            </td>
+            <td>
+                0.67 days
+            </td>
+            <td>
+                164.79 years
+            </td>
+            <td>
+                49,244 km
+            </td>
+            <td>
+                1.024 x 10^26 kg
+            </td>
+            <td>
+                4.4752 billion km
+            </td>
+            <td>
+                57
+            </td>
+            <td>
+                -392 degree faraniet
+            </td>
+        </tr>
+    </table>
+    <hr style="color: red;">
+    <style>
+        .hyperlink:link
+        {
+            color: chartreuse;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        .hyperlink:visited
+        {
+            color: chartreuse;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        .hyperlink:hover
+        {
+            color: chartreuse;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        .hyperlink:active
+        {
+            color: chartreuse;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        table
+        {
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <p>
+        <font style="color: white;">
+            Click on the bold words to know more about them
+        </font>
+    </p>
+</html>
